@@ -1,16 +1,57 @@
-# React + Vite
+# 🚀 React + Vite – Consumo de API de Usuarios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-4.6.14-yellow?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación web construida con **React** usando **Vite** que consume una API de usuarios y muestra información de forma dinámica y moderna.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🖼 Captura de pantalla
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<div align="center">
+  <img src="public/image.png" alt="Captura del proyecto" width="600" style="border-radius: 8px; border: 1px solid #ddd;" />
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 ¿Qué es este template?
+
+Este proyecto parte del template básico de **React + Vite**, con configuración mínima para funcionar con HMR y ESLint.  
+Actualmente soporta:
+
+- **@vitejs/plugin-react** – Fast Refresh con Babel  
+- **@vitejs/plugin-react-swc** – Fast Refresh con SWC  
+
+La plantilla no incluye React Compiler por defecto debido a impacto en performance.  
+[Documentación React Compiler](https://react.dev/learn/react-compiler/installation)
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- **React** – UI declarativa  
+- **Vite** – Bundler rápido para desarrollo  
+- **Fetch API / Axios** – Para consumir la API de usuarios  
+- **React Hooks** – (`useState`, `useEffect`)  
+- **CSS / Estilos propios**  
+
+---
+
+## 📦 Instalación
+
+Clona el proyecto y ejecuta:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/BALT9/react_consumo_api1.git
+
+# Entrar en la carpeta del proyecto
+cd react_consumo_api1
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
+npm run dev
